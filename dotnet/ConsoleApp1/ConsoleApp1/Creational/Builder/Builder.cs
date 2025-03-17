@@ -1,9 +1,9 @@
 ﻿//Builder design pattern is used when you want to take away logic of building a complex object and give it to some other objext.
 
 
-ApplicationBuilder builder = new ApplicationBuilder();
-Application appl=builder.SetConfigA(1).SetConfigB(2).SetConfigC(3).Build();
-Console.WriteLine(appl.AddAllConfigs());
+//ApplicationBuilder builder = new ApplicationBuilder();
+//Application appl=builder.SetConfigA(1).SetConfigB(2).SetConfigC(3).Build();
+//Console.WriteLine(appl.AddAllConfigs());
 
 
 class Application
